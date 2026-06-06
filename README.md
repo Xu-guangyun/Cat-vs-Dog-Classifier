@@ -9,7 +9,7 @@
 | 项目 | 型号 / 规格 |
 |------|-------------|
 | GPU | NVIDIA GeForce RTX 4070 Laptop GPU（8 GB 显存） |
-| CPU | 笔记本 CPU（Windows 11） |
+| CPU | 13th Gen Intel(R) Core(TM) i7-13650HX (2.60 GHz)  |
 
 ## 软件及环境
 
