@@ -1,0 +1,48 @@
+data_set/                               ← 猫狗数据集根目录
+│
+└── cats and dogs/
+    │
+    ├── train/                          ← 训练集
+    │   ├── Cat/                        ← 猫：n 张
+    │   │   ├── cat.1.jpg
+    │   │   ├── cat.2.jpg
+    │   │   ├── ...
+    │   │   └── cat.n.jpg
+    │   │
+    │   └── Dog/                        ← 狗：n 张
+    │       ├── dog.1.jpg
+    │       ├── dog.2.jpg
+    │       ├── ...
+    │       └── dog.n.jpg
+    │
+    ├── val/                            ← 验证集
+    │   ├── Cat/                        ← 猫：n 张
+    │   │   ├── cat.1.jpg
+    │   │   ├── cat.2.jpg
+    │   │   ├── ...
+    │   │   └── cat.n.jpg
+    │   │
+    │   └── Dog/                        ← 狗：n 张
+    │       ├── dog.1.jpg
+    │       ├── dog.2.jpg
+    │       ├── ...
+    │       └── dog.n.jpg
+    │
+    └── test/                           ← 测试集
+        ├── Cat/                        ← 猫：n 张
+        │   ├── cat.1.jpg
+        │   ├── cat.2.jpg
+        │   ├── ...
+        │   └── cat.n.jpg
+        │
+        └── Dog/                        ← 狗：n 张
+            ├── dog.1.jpg
+            ├── dog.2.jpg
+            ├── ...
+            └── dog.n.jpg
+
+==================== 使用说明 ====================
+
+  • train/  → train.py  用这个目录训练模型
+  • val/    → train.py  用这个目录验证模型准确率
+  • test/   → detect.py 默认从这个目录选择图片进行预测
