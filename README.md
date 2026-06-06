@@ -53,10 +53,10 @@ catdog/
 ├── detect.py                      ← 检测脚本（图形界面选图、预测）
 ├── data_set/
 │   └── cats and dogs/
-│       ├── data_set_structure.txt ← 数据集目录结构示意图
 │       ├── train/                 ← 训练集
 │       ├── val/                   ← 验证集
 │       └── test/                  ← 测试集
+│                     
 └── weight.pth                     ← 训练生成的最佳模型权重
 ```
 
